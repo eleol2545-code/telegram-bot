@@ -42,7 +42,7 @@ def extract_links(text):
 
 def resolve(url):
     try:
-        r = requests.get(url, allow_redirects=True, timeout=10)
+        r = requests.get(url, allow_redirects=True, timeout=5)
         return r.url
     except:
         return url
