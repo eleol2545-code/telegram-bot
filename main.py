@@ -23,7 +23,7 @@ import requests
 from telegram import Update
 from telegram.ext import ApplicationBuilder, MessageHandler, CommandHandler, ContextTypes, filters
 
-BOT_TOKEN = "8604160490:AAHpqM1n0TvpmWTltkMoLXxHrn4m-rF8OCY"
+BOT_TOKEN = "8765820951:AAE3cKP8XfGkCtgarui9LhKwgjHnb8Qdj2I"
 ADMIN_IDS = [5290445071, 7929629319]
 
 pattern = r'https?://(?:search\.app|share\.google)/[A-Za-z0-9_-]+'
