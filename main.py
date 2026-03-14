@@ -36,10 +36,6 @@ def extract_links(text):
     return re.findall(pattern, text)
 
 
-def extract_links(text):
-    return re.findall(pattern, text)
-
-
 def resolve(url):
     try:
         r = requests.get(url, allow_redirects=True, timeout=5)
